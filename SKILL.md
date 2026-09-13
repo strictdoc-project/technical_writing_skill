@@ -143,6 +143,21 @@ Examples:
 - DO: `The command validates the configuration before writing the output to disk. Configuration validation prevents later failures caused by invalid configuration.`
 - AVOID: `The command writes the output to disk, and it also validates the configuration, which is useful because invalid configuration can otherwise cause failures later.`
 
+#### One idea/fact per sentence
+
+A sentence should state one fact. When a sentence joins two independent clauses with "and", "but", "so", or "which", and each clause could stand as its own fact, split it into separate sentences — even if the combined sentence is short enough to satisfy the word-count guideline.
+
+Exception: keep clauses joined when they describe a single tightly coupled action or a direct cause and effect, and splitting would force an artificial subject repetition without adding clarity (for example, `The receiver discards the packet if its checksum is invalid.`). Judge by whether the reader loses or gains clarity, not by clause count alone.
+
+Examples:
+
+- DO: `The parser validates input. The parser logs errors to stdout.`
+- AVOID: `The parser validates input and logs errors to stdout.`
+
+
+- DO: `The scheduler retries failed jobs. Retries use exponential backoff.`
+- AVOID: `The scheduler retries failed jobs, and it uses exponential backoff.`
+
 
 - DO:
 
