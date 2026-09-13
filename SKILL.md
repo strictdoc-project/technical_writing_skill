@@ -9,9 +9,9 @@ Version: v1
 
 ## Check-in
 
-The first time this skill is used in a response, print this line before anything else:
+MANDATORY: When this skill is used in a response, print this line before anything else:
 
-`[technical-writing-guide v1 activated]`
+`**technical-writing-guide v1** activated`
 
 ## Rule of thumb
 
