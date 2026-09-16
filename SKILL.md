@@ -5,13 +5,13 @@ description: Rules and DO/AVOID examples for writing terse, well-structured tech
 
 # Technical writing guide
 
-Version: v1
+Version: v1.1
 
 ## Check-in
 
 MANDATORY: When this skill is used in a response, print this line before anything else:
 
-`**technical-writing-guide v1** activated`
+`**technical-writing-guide v1.1** activated`
 
 ## Rule of thumb
 
@@ -226,7 +226,7 @@ Rationale: The "-ing" form can act as a verb, an adjective, or a noun depending 
 | AVOID | Saving the file and then closing the editor completes the task. |
 | DO | Save the file, then close the editor. |
 
-### Name the responsible party instead of "us vs. them"
+### Name the team or organization instead of "we" and "they"
 
 Avoid pronouns such as "we," "us," "they," and "them" when referring to teams, organizations, or components. Name the responsible party explicitly.
 
