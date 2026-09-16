@@ -210,6 +210,27 @@ Examples:
 - DO: `The engineer linked the requirement to the test case.`
 - AVOID: `The requirement was linked to the test case.`
 
+### Avoid "-ing" verb forms
+
+Rewrite "-ing" verbs as a finite verb form (for example, simple present or simple past).
+
+Exception: keep an "-ing" word when it functions as an established technical noun (`Installation and Servicing`) or as a fixed modifier inside a technical noun (`operating system`, `steering column`).
+
+Rationale: The "-ing" form can act as a verb, an adjective, or a noun depending on where it sits in the sentence. A reader has to resolve that role before parsing the rest of the sentence. Drafts that lean on "-ing" also tend to stack clauses instead of stating one action per sentence.
+
+Examples:
+
+- DO: `Restart the service after you edit the configuration.`
+- AVOID: `Restarting the service is required after editing the configuration.`
+
+
+- DO: `An operator who ignores the interlock can damage the arm.`
+- AVOID: `An operator ignoring the interlock risks damaging the arm.`
+
+
+- DO: `Save the file, then close the editor.`
+- AVOID: `Saving the file and then closing the editor completes the task.`
+
 ### Name the responsible party instead of "us vs. them"
 
 Avoid pronouns such as "we," "us," "they," and "them" when referring to teams, organizations, or components. Name the responsible party explicitly.
