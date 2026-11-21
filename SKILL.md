@@ -1,17 +1,21 @@
 ---
 name: technical-writing-guide
-description: Rules and DO/AVOID examples for writing short, well-structured technical documentation - BLUF, topic sentences, short paragraphs, sentence case, active voice, consistent terminology, concise wording, and structure over prose. Use when writing or editing technical docs, READMEs, specs, or reviewing text for clarity and conciseness.
+description: Rules and DO/AVOID examples for writing short, well-structured technical documentation - BLUF, topic sentences, short paragraphs, sentence case, active voice, consistent terminology, concise wording, and structure over prose. Use when writing or editing technical docs, READMEs, specs, or reviewing text for clarity and conciseness. Also use when the user writes "crystal", "apply crystal", or "use crystal".
 ---
 
 # Technical writing guide
 
-Version: v1.2
+Version: v1.3
 
 ## Check-in
 
 MANDATORY: When you use this skill in a response, print this line before anything else:
 
-`**technical-writing-guide v1.2** activated`
+`**technical-writing-guide v1.3** activated`
+
+## Aliases
+
+`Crystal` is an alias for this skill (from "crystal-clear writing"). When the user writes `Crystal`, `Apply crystal`, or `Use crystal`, apply this skill to the text that the user names.
 
 ## Rule of thumb
 
